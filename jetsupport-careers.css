@@ -1396,3 +1396,6 @@ h1.display{font-family:"BDO Grotesk","Helvetica Neue",Arial,sans-serif;
   mask:url(images/jetsupport-logo.svg) no-repeat center/contain}
 .nav__logo span{display:none}
 .nav__logo--foot{width:clamp(150px,13vw,190px)}
+/* logo at half size */
+.nav__logo{width:clamp(64px,5.5vw,84px)}
+.nav__logo--foot{width:clamp(75px,6.5vw,95px)}
