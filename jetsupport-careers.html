@@ -42,7 +42,6 @@
   <div class="slide__scrim slide__scrim--soft"></div>
   <div class="slide__inner slide__inner--center">
     <h1 class="display">More variety.<br>More growth.</h1>
-    <p class="hero__kicker">GROWING AT JETSUPPORT</p>
     <div class="hero__copy">
       <p>We are always open to people who add something. Don&rsquo;t see your role in the list? Start an open application and tell us what you bring to the hangar.</p>
     </div>
@@ -556,7 +555,7 @@
     });
 
     // hero-entrance bij laden
-    var heroBits = document.querySelectorAll('.slide--hero .display, .slide--hero .hero__kicker, .slide--hero .hero__copy, .slide--hero .hero__ctas');
+    var heroBits = document.querySelectorAll('.slide--hero .display, .slide--hero .hero__copy, .slide--hero .hero__ctas');
     heroBits.forEach(function (el, i) {
       el.classList.add('reveal');
       el.style.setProperty('--d', (200 + i * 150) + 'ms');
